@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE daogen-metadata>
+
+<daogen-metadata>
+   <version>2.4.1</version>
+   <timestamp>25.07.2018</timestamp>
+
+   <tableName>teleprogramm_mir</tableName>
+   <className>Session</className>
+   <language>php</language>
+   <database>mysql</database>
+   <useCache>false</useCache>
+   <classPackage></classPackage>
+   <columns>
+      <dbColumn PK="true" colType="Int" colName="teleprogramm_id" varName="sessionID" 
+      automatic="false" valueSource="" indexed="true" colLength="10" orderLevel="0" orderType="ASC" />
+
+      <dbColumn PK="false" colType="Int" colName="article_broadcast_id" varName="showID" 
+      automatic="false" valueSource="" indexed="false" colLength="10" orderLevel="0" orderType="ASC" />
+
+      <dbColumn PK="false" colType="Timestamp" colName="start" varName="sessionDateTime" 
+      automatic="false" valueSource="" indexed="true" colLength="10" orderLevel="1" orderType="DESC" />
+
+      <dbColumn PK="false" colType="String" colName="title" varName="title" 
+      automatic="false" valueSource="" indexed="false" colLength="255" orderLevel="0" orderType="ASC" />
+
+   </columns>
+</daogen-metadata>
